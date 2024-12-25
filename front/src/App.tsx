@@ -38,9 +38,11 @@ export default function App() {
     script.async = true;
     const loadKakaoMap = () => {
       // @ts-ignore
-      window.kakao.maps.load(() => {
-        // console.log("Kakao maps loaded successfully");
-      });
+      if (window.kakao && window.kakao.maps) {
+        window.kakao.maps.load(() => {
+          // console.log("Kakao maps loaded successfully");
+        });
+      }
     };
     script.onload = loadKakaoMap;
     document.head.appendChild(script);
