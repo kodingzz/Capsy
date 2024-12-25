@@ -288,14 +288,13 @@ export default function MapPage() {
 
   // 검색어를 입력하면 연관 검색어들이 리스트업
   useEffect(() => {
-    // 장소 검색 객체를 생성
-    const ps = new window.kakao.maps.services.Places();
-
     // 입력값이 비어있을 경우
     if (searchInput === "") {
       setSearchResults([]);
       return;
     }
+    // 장소 검색 객체를 생성
+    const ps = new window.kakao.maps.services.Places();
     // 키워드로 장소를 검색
     ps.keywordSearch(searchInput, (data: Place[], status: any) => {
       // @ts-ignore - kakao is globally available
