@@ -15,6 +15,11 @@
 <img src="https://img.shields.io/badge/tailwindcss-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white">
 
 
+## 🤔 기획의도
+js 라이브러리 React를 활용한 타임 캡슐 SNS Capsy는 단순히 일상을 기록하는 것을 넘어,
+사용자 간의 추억을 공유 하며 서로 공감할 수 있는 새로운 형태의 네트워크를 구축할 수 있다.
+
+
 ## 주요 기능
 
 ### 📝 게시물
@@ -75,6 +80,7 @@
 - 게시물 좋아요
 - 타임캡슐 알림 설정
 - 스크롤 탑 버튼
+  
 
 ### 게시물 상세 페이지 (PostDetailPage)
 - 게시물 내용 확인
@@ -104,6 +110,7 @@
 - 팔로워/팔로잉 목록
 - 내 게시물 관리 (일반/타임캡슐/예약글)
 - 공개 완료/대기 중인 타임캡슐 확인
+![마이페이지 gif1](https://github.com/user-attachments/assets/5c1a3809-372c-4296-bdd0-b4852cea173a)
 
 ### 사용자 정보 페이지 (UserInfoPage)
 - 사용자 프로필 확인
