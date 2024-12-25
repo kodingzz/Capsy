@@ -34,7 +34,7 @@ export default function App() {
   const { isDark } = useThemeStore();
   useEffect(() => {
     const script = document.createElement("script");
-    script.src = `//dapi.kakao.com/v2/maps/sdk.js?appkey=${import.meta.env.VITE_KAKAO_APP_KEY}&libraries=services,clusterer&autoload=true`;
+    script.src = `//dapi.kakao.com/v2/maps/sdk.js?appkey=${import.meta.env.VITE_KAKAO_APP_KEY}&libraries=services,clusterer&autoload=false`;
     script.async = true;
 
     // onload 핸들러에서 map 초기화
