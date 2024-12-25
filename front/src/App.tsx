@@ -34,18 +34,20 @@ export default function App() {
   const { isDark } = useThemeStore();
   useEffect(() => {
     const script = document.createElement("script");
-    script.src = `//dapi.kakao.com/v2/maps/sdk.js?appkey=${import.meta.env.VITE_KAKAO_APP_KEY}&libraries=services,clusterer&autoload=false`;
+    script.src = `//dapi.kakao.com/v2/maps/sdk.js?appkey=${import.meta.env.VITE_KAKAO_APP_KEY}&libraries=services,clusterer&autoload=true`;
     script.async = true;
-    const loadKakaoMap = () => {
+
+    // onload 핸들러에서 map 초기화
+    script.onload = () => {
       // @ts-ignore
-      if (window.kakao && window.kakao.maps) {
-        window.kakao.maps.load(() => {
-          // console.log("Kakao maps loaded successfully");
-        });
-      }
+      window.kakao.maps.load(() => {
+        // 카카오맵 로드 후 필요한 초기화 작업을 추가
+        console.log("Kakao maps loaded successfully");
+      });
     };
-    script.onload = loadKakaoMap;
+
     document.head.appendChild(script);
+
     return () => {
       document.head.removeChild(script);
     };
