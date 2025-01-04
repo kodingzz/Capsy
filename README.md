@@ -1,6 +1,7 @@
-# Capsy
-
-### 추억을 공유하는 타임캡슐 SNS
+# Capsy - 추억을 공유하는 타임캡슐 SNS
+### [🔗Capsy 데모 사이트]([(https://caapsy.netlify.app)]/) 
+### [🔗Capsy 발표자료]([([https://caapsy.netlify.app](https://file.notion.so/f/f/89fde35f-d786-48b7-a620-56fc17eb00d5/a0c2a5b3-2d00-4408-b412-160df93b5ac0/E1I4_Capsy_final.pdf?table=block&id=cb78f63a-d8d1-461e-a434-407f6ee3b2aa&spaceId=89fde35f-d786-48b7-a620-56fc17eb00d5&expirationTimestamp=1736035200000&signature=WHlpBF2W5jl1tudGzIWvSAE46zIgPA5Okkj2YXuUJHU&downloadName=E1I4_Capsy_final.pdf))]
+### [🔗Capsy 시연 영상]()
 
 ### 팀원 구성
 |<img src="https://avatars.githubusercontent.com/u/82489360?v=4,mpd253,ChoiYoungKyu,https://github.com/mpd253" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/184810341?v=4,Soorangmanju,,https://github.com/Soorangmanju" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/48465276?v=4,gjwjdals96,,https://github.com/gjwjdals96" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/96560273?v=4,kodingzz,Hyunw00,https://github.com/kodingzz" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/155376060?v=4,miseullang,,https://github.com/miseullang" width="150" height="150"/>
